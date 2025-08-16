@@ -1,0 +1,18 @@
+Offline Mode Simulator:
+This script will allow developers to simulate Trigger.dev triggers locally without an internet connection.
+"""
+def simulate_trigger(task_id: str, payload: dict):
+    """
+    TODO: Implement local execution of the Trigger.dev task with given task_id and payload.
+    (This should mimic the actual task run logic.)
+    """
+    print(f"Simulating task '{task_id}' with payload: {payload}")
+    # Placeholder: In the real implementation, this would invoke the task's code.
+
+def main():
+    # Example usage (to be expanded):
+    simulate_trigger("example-task", {"data": "value"})
+    # TODO: Add support for loading task definitions and automating multiple triggers.
+
+if _name_ == "_main_":
+    main()
